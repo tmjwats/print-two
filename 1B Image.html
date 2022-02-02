@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head><link href="style.css" type="text/css" rel="stylesheet">
+  </head>
+  <body class= "caption-page">
+  <div id= "work-image">
+    <a href="1B.html">
+      <img class="duchamp" src="Metal.png" alt="examp"></img>
+  </a>
+</div>
+    <br>
+    <h3 class= "caption"><a href= "1.html"> < </a></h3>
+    <br>
+  </body>
+  <script>
+    const image = document.querySelector('.duchamp');
+    image.addEventListener('mouseover', () => { 
+      console.log('hello');
+      image.setAttribute('src', "metal outline.png");
+    });
+      image.addEventListener('mouseout', () => { 
+        console.log('hello');
+        image.setAttribute('src', 'metal.png');
+      });
+    </script>

@@ -13,6 +13,11 @@
     <br>
   </body>
   <script>
+    function preloadImage(url)
+{
+    var img=new Image();
+    img.src=url;
+}
     const image = document.querySelector('.duchamp');
     image.addEventListener('mouseover', () => { 
       console.log('hello');

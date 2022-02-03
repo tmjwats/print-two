@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head><link href="style.css" type="text/css" rel="stylesheet" rel="preload" as="image" href="Wood.jpg">
+  <head><link href="style.css" type="text/css" rel="stylesheet">
   </head>
   <body class= "caption-page">
   <div id= "work-image">
@@ -12,12 +12,11 @@
     <h3 class= "caption"><a href= "1.html"> < </a></h3>
     <br>
   </body>
+  <div id="preloaded-images">
+    <img src="Wood.jpg" width="1" height="1" alt="" />
+    <img src="Woodoutline.png" width="1" height="1" alt="" />
+ </div>
   <script>
-    function preloadImage(url)
-{
-    var img=new Image();
-    img.src="woodoutline.png";
-}
     const image = document.querySelector('.duchamp');
     image.addEventListener('mouseover', () => { 
       console.log('hello');
